@@ -1,0 +1,46 @@
+# What is Osi Model?
+
+## 1. Overview
+
+OSI Model (Open System Interconnection Model) is how we understand how computer sending packet to one another, there are 7 layer OSI Model
+and every layer have different function
+
+## 2. Key Concept
+
+- Physical 
+==> Lowest layer, using binary and physical cable transmit data, in the physical layer, the data is converted to binary format (1 and 0)
+
+- Data Link
+==> In this layer, data is converted to become acceptable format to transport and further use
+
+- Network 
+==> This layer functioned to find the most optimal route or path to reach its target device using OSPF (Open Shorthest Path First) and RIP (Routing Information Protocol)
+
+key requirements are:
+- Which path is the shothest?
+- Which path is reliable
+- Which pat is faster in physical connection
+
+
+- Transport
+==> Transporting the data using one of these:
+	-TCP (Transmission Control Protocol)
+	--> Data is guaranteed to reach its target fully, but needs stable internet connection in two device, usally used when 	transferring 	email etc
+	-UDP (User Datagram Protocol)
+	--> Data is not guaranteed, data could be broke but not requiring stable connection, and transferring faster than TCP, usually 	used 	when to stream video
+
+- Session
+==> Session used to maximize effiency when transporting data, its eliminate data that failed to be sent
+
+- Presentation
+==> Presentation act like a translator from the data to the targeted device
+
+- Application
+==> Last layer, its the result of the data, usually appear as friendly GUI or DNS
+
+## 3. What i learn?
+
+- What is OSI Model?
+- How data transferred each other?
+
+
