@@ -1,0 +1,38 @@
+# What is IP and how to ping
+
+## 1. Overview
+To make manage sea of devices in internet, every device need to be identifiable, there are two ways of identifying device, using ip and mac addresses
+
+## 2. Key concept
+Ip = Internet protocol
+
+- There are 2 ip public and private
+
+PRIVATE IP
+- Private ip is your device ip
+- Used to identify your device in a private network
+
+PUBLIC IP
+- Public ip is your ip when you or other device in a private network sent data to the internet
+- Multiple device could have same public ip, because they are in the same network
+- Public ip is given by your ISP
+
+ip could be split up into octet
+
+There are IPv4 and IPv6, newer one is IPv6
+
+MAC = Media Accedd Control
+
+MAC addresses is serial number foun in device network interface
+
+MAC could be split up into colon
+
+first there colon is the manufacturer serial number
+the last in the device unique serial number
+
+PING uses ICMP (Internet Control Message Protocol) to know time taken for a packet to travel between device
+
+## Commands
+
+ping xxx.xx.xx.x.x(your ip) ==> pinging ip
+
