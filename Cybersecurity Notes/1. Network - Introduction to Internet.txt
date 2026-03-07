@@ -1,0 +1,21 @@
+# Intro to Network and Internet
+
+## 1. Overview
+
+Network are two things or more connected, it could be a device, human relationships or anything. Internet is a giant network of device makes up of different and smaller network and its called private network. Internet we use today is WWW (World Wide Web) and founded by Tim Berners-Lee. Internet is a Public network.
+
+## 2. Key Concepts
+
+Network ==> Things connected together, could be everything
+
+Internet ==> Giant network of device that makes up from different smaller network, internet is a Public Network
+
+Public Network ==> Combination of a lot of private network, or the internet
+
+Private Network ==> Private network is a smaller network that makes the internet
+
+## 3. What i learn?
+
+What is internet?
+What is Network
+Different between private and public network
