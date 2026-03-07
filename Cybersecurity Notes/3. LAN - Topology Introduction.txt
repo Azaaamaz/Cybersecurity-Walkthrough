@@ -1,0 +1,18 @@
+# LAN Topology
+
+## 1. LAN (Local Area Network) is same as privat network. LAN is divided into several design, called topology Star, Bus, and Round
+
+## 2. Key Concepts
+
+Topology = LAN network design
+Star Topology = Every device is connedted to a central networking device
+BUS Topology = Device is rely on a single connection cable called backbone cable
+Circle Topology = Device is interconnected one to another
+Switch = Switch is a device in a router connecting a lot of device
+Router = Router used to find the most efficient way for data to reach its target
+
+## 3. What i learn?
+
+What is topology?
+What is switch?
+What is Router?
