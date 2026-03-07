@@ -1,0 +1,21 @@
+# What is ARP?
+
+## 1. Overview 
+
+ARP (Addressees Resolution Protocol) a technology used for a device to identify themself
+
+## 2. Key Comtents
+
+ARP = Addresses Resolution Protocol
+
+In order to work, ARP have two tools, ARP Request and ARP Reply
+
+ARP Request = Happen when a device broadcaasting a message to their private network for device who have the messaged ip to reply
+ARP Reply = Happen when a device broadcasting ip in its network
+
+The Request and Reply is same as like we calling our friend name is a classroom, when he or she reply, we know where he is
+
+## 3. What i learn
+
+What is ARP?
+How ARP work?
