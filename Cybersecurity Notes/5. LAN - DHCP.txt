@@ -1,0 +1,23 @@
+# What is DHCP
+
+## 1. Overview 
+
+DHCP (Dynamic Host Configuration Protocol) is a service that assigning ip to a new device
+
+## 2. Key Concepts
+
+DHCP = Dynamic Host Configiration Protocol
+
+Here is how DHCP work
+
+- When a device is not signed manually to an ip, they could make an ip request to DHCP (DHCP Discover)
+- DHCP sever the giving an ip to offer to the device (DHCP Offer)
+- Then the device sending a conformation to accept the ip give (DHCP Request)
+- Then DHCP server will acknowledge the ip given to the device ( DHCP ACK)
+
+## 3. What i learn
+
+What is DHCP?
+How DHCP work?
+
+
