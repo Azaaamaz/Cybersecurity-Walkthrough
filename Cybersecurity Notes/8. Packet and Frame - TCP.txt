@@ -1,0 +1,65 @@
+# What is TCP/IP
+
+## 1. Overview
+
+TCP/IP is one of two protocol used to send data to a device
+
+## 2. Key Contents
+
+There are several headers and message used in order to send data in TCP/IP
+
+Headers : 
+
+- Source Port
+==> Value from the sender tcp packet (0 - 65535), choosen randomly
+
+- Destination Port
+==> Value of the destination, not choosen randomly
+
+- Source IP
+==> The IP addresses pf the sender
+
+- Destination IP
+==> The IP of the destination
+
+- Sequence Number
+==> Giving a random number to the first piece of the data
+
+- Acknowledgement Number
+==> After a piece of data is transferred, the next piece of data will have number +1
+
+- Checksum
+==> Mathemstical calculation to check is the data transmitted correctly
+
+- DATA
+==> Header place the piece of data is shared
+
+- Flag
+==> Determining how data should be handled by the receiving device, spesicic f;ag indicated different behavior
+
+TCP/IP sending data using what called Three-Way Handshake
+
+Below is several highlight terminology:
+
+- SYN
+==> Synchronize the device, used to intitiate connection by sending a packet to start connection
+
+- SYN/ACK
+==> The receiving device (Server) acknowledge the synchronization by thee client
+
+- ACK
+==> Acknowledgement packet that could be used by thee client or the server
+
+- DATA
+==> Sending the data using this messages
+
+- FIN
+==> This packet used to clean up all connection
+
+- RST
+==> Ending all communication
+
+## 3. What i learn
+
+- What is TCP/IP?
+- How its work?
