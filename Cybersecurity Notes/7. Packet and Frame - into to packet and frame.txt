@@ -1,0 +1,15 @@
+# What is Packet and Frame?
+
+## 1. Overview
+
+Packet is a piece of data, meanwhile frame is used at layer 2 (Data Link) to add additional info, so the packet could be sent. Your data is not sent a whole.
+
+## 2. Key Concept
+
+Packet = Piece a data that will be sent to a device, data is divided into several pieces
+
+Frame = Additional information to sent data into the target
+
+## 3. What i learn?
+
+- What is packet and its frame?
