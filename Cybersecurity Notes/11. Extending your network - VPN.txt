@@ -1,0 +1,29 @@
+# What is VPN
+
+## 1. Overview
+
+VPN is a technology that allows device to communicate securely by creating a dedicated path in the internet
+
+## 2. Key Data
+
+Benefit of VPN:
+
+- Allow Network in differet geographical location to connect in the same network
+- Offering Privacy (because VPN offer encryption so its very useful in public network)
+- Annonimity
+
+VPN technology:
+
+- PPP
+==> Allow authentication and providing encryption 
+
+PPTP
+==> Point-to-Pint Tunneling Protocol used for PPP data to leaving a network. Not as secure as PPP
+
+IPsec
+==>Encyript data using existing IP. Difficult to set up
+
+## 3. What i learn
+
+- What is VPN
+- How VPN work
