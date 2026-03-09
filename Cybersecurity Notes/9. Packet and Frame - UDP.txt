@@ -1,0 +1,32 @@
+# What is UDP/IP
+
+## 1. Overview
+
+UDP/IP is stateless protocol that doesn't need constant internet connection between 2 device. UDP/IP didn't occurring three-way handshake. UDP/IP used in condition where missing of a piece of data is tolerated, like when we stream a video.
+
+## 2. Key Concept
+
+There are several headers used in UDP/IP
+
+- Time to Love (TTL)
+==> Expiry time for the packet, so its not clogged up in the network
+
+- Source Address
+==> The IP address of the sending device, so the packet know where to return
+
+- Destination address
+==> The target device IP
+
+- Source Port
+==> The value of the port that opened by the sender to send packet chosen randomly (0-65535)
+
+- Destination Poet
+==> The value of the destination IP, not chosen randomly
+
+- DATA
+==> The header where data is being sent
+
+## 3. What i learn?
+
+- What is UDP/IP?
+- How its's work?
