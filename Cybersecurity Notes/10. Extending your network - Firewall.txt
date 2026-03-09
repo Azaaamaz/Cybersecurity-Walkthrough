@@ -1,0 +1,31 @@
+# What is Firewall and how its work?
+
+## 1. Overview
+
+Firewall is a device responsible to determine what traffic is allowed and not allowed to enter network.
+
+## 2. Key Content
+
+Firewall = Device responsible to determining traffic that enter network
+
+Factors that come into consideration is:
+
+- Where is traffic coming from?
+- Where is the traffic going to?
+- What port is the traffic for?
+- What protocol is the etraffic using?
+
+Firewall came in different shape and size, from hardware to software. It could be categorized into 5 categories, below are 2 of them
+
+- Statefull
+==> Use intire information from a traffic to determining the traffic, using more resorce but smarter
+
+- Stateless
+==> only checking individual packet, dumber and only work effectively only if there is a rule to define what could enter or not. Not requiring much of resource
+
+
+
+## 3. What i learn
+
+- What is Firewall
+- Factors to determine a traffic
