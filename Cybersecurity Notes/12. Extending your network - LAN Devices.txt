@@ -1,0 +1,16 @@
+# LAN network devices
+
+## 1. Overview
+
+There are 2 LAN devices, Router and Switch
+
+## 2. Key Content
+
+Router = Devices used to find the most efficient way to reach the target device, router work in layer 3
+
+Switch = Used to segregate devices in a network, switch work in later 3 or 2
+
+## 3. What i learn
+
+- What is Router
+- What is Switch
