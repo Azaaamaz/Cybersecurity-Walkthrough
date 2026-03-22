@@ -1,0 +1,40 @@
+# HTTP Status code
+
+
+# 1. Overview
+
+When HTTP server respond its always start with status codes. Status codes can be broken down into 5 different ranges:
+
+# 2. Key Content
+
+100-199 Information Respon
+===> These codes no longer very common, used to inform client that first part of the data has been sent, and they sould continue sending the rest of the data
+
+200-299 Success
+===> 200-299 These ranges of codes indicates the request was succesfull, 200 means "OK"
+
+300-399 Redirection
+===> Redirecting client to different website or webpage (Source)
+
+400-499
+===> used to inform clint that there was an error with the request
+
+500-599
+===> used to inform that there's an error on the server-side, quite major problem
+
+COMMON HTTP STATUS CODES
+
+200 = "OK"
+201 = "Created"
+301 = "Moved Permanently" redirect to a webpage and tell the browser that page has been redirected to that webpage
+302 = "Found" Only redirect but temporary, and may change in the near future
+400 = "Bad Request" missing something in the request
+401 = "Not Authorized"
+403 = "Forbidden" you do not have permission to view the resource
+405 = "Method not Allowed" resource not allowed the method request
+404 = "Page not Found"
+500 = "Intrneal service error"
+503 = "Service unavaible"
+
+Website==> Collection of a webpage ex: Youtube.com
+Webpage==> Single document on the internet, ex: www.example.com/news/article123

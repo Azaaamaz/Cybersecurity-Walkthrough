@@ -1,0 +1,21 @@
+# What happen when w want to open a website
+
+## 1. Overview
+
+When we want to open a website, our computer send a domain request to the network, here is what happened
+
+## 2. Key Contents
+
+There are several step when your computer making a domain request
+
+1 . Your computer will check in the local data for chache of the DNS. If not foun it will be passed to the next step
+
+2. Check in the recursive DNS server, if not found will be redirected to next step
+
+3. Will be checking in its own DNS server, and will be redirected to its own DNS root server
+
+4. In authoritative server the DNS will be found and will be copied to recursive DNS server and local device
+
+## 3. Command
+
+ns lookup -- type(DNS type) xxx.xx.xx

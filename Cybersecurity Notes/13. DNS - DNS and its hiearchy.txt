@@ -1,0 +1,42 @@
+# DNS and is hierarchy
+
+## 1. Overview
+
+DNS (Domain Name System) is a simple way to communicate in the internet without remembering complex IP number, tryhackme.com is example og DNS.
+
+## 2. Key content
+
+DNS = Domain Name System
+
+Dns is divided in to several level:
+
+- Root DNS
+==> The highest level of DNS sever, (.)
+
+- Top level domain
+==> To tell user domain name purpose, divided into 2
+	- gTLD (generic top level domain)
+	- ccTLD (country code top level domain)
+    Only 63 character and could only use  a-z-0-9 and hypens (_)
+
+- Subdomain
+==> Same like domain but it divide your domain into other domain. You could have subdomain as many a you want as long you have a top level domain
+
+DNS Divided into several record types
+
+- A record
+==> Using IPv4 addresses
+
+- AAAA Record
+==> Using IPv6 addresses
+
+- CNAME Record
+==> Used to name website with another name but still refer to the same page
+
+- MX Record
+==> Used to exchange mail
+
+- TXT Record
+==> Used to only text file
+
+

@@ -1,0 +1,90 @@
+# HTTP in detail
+
+## 1. Overview
+
+When we open a website, the browser will make a request to the webserver
+
+## 2. Key content
+
+URL - Uniform Resource Protocol
+
+Example: 
+
+http://user:passwork@trayhackme.com:80/view-room?id=1#task13
+
+http ==> Scheme = This instruct on what protocol use for accessing resource
+
+user:passwork ==> Some services require authentication to log in, you can put a username and password into the URL to log in.
+
+trayhackme.com ==> Host = Domain nam or Ip address of the website
+
+80 ==> Port = The Port that you are going to connect to, usually 80 for HTTP and 443 for HTTPS, but this can be hosted on any port between 1 - 65535.
+
+view-room ==> Path = The file name or location of the resource you are trying to access.
+
+?id=1 ==> Querry string = This is a reference to a location on the actual page requested. This is commonly used for pages with long content and can have a certain part of the page directly linked to it, so it is viewable to the user as soon as they access the page.
+
+#task3 ==>This is a reference to a location on the actual page requested. This is commonly used for pages with long content and can have a certain part of the page directly linked to it, so it is viewable to the user as soon as they access the page.
+
+When we open a website, the browser will send a request to the webserver
+
+==> USING GET COMMAND
+
+Example:
+
+
+GET / HTTP/1.1 ===> Sending GET request
+
+Host: tryhackme.com ===> Tell the webserver we want to open this site
+User-Agent: Mozilla/5.0 Firefox/87.0 ==> Tell th webserver we are using Firefox 87 browser
+Referer: https://tryhackme.com/ ==> We are telling the web server that the web page that referred us to this one is https://tryhackme.com
+
+Blank ==> Tell the webserver that request ended
+
+Example response : 
+
+
+HTTP/1.1 200 OK ==> tell version off http 1.1 and 200k mean tell us that request has completed
+
+Server: nginx/1.15.8 ==> version num of webserver
+Date: Fri, 09 Apr 2021 13:34:03 GMT ===> current date, time and timezone
+Content-Type: text/html ===> information that sent (HTML, images, videos, pdf, XML)
+Content-Length: 98 ===> how long the response is, to tell no data is missing
+
+
+<html>
+<head>
+    <title>TryHackMe</title>
+</head>
+<body>
+    Welcome To TryHackMe.com
+</body>
+</html>
+
+
+==> HTTP METHODS
+
+is a way for the client to show their intentions when making a request of http, there are a lot of http methods but here is several of it:
+
+GET Request
+===> used to to getting information from a webserver
+
+POST Request
+===> used for submitting data to the web server and potentially creating new records
+
+PUT Request 
+===> submit data to webserver to update information
+
+DELETE Requests 
+===> used to delete information from a webserver
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+# Headers in HTTP
+
+## 1. Overview
+
+Headers are additional bits of adta that can be added when making a request to the server. Header is additional but could help viewing the webpage
+
+## 2. Key Content
+
+Headers that are sent to the server
+
+Host = Providing website that want to be showed because some server host multiple website
+
+User-Agent = Telling the server about what browser you use, an version number. It helps the webserver to format properly for your browser
+
+Content-Lenght = Webserver tells the webserver how much adta to expect. It ensuring there are no missing data
+
+Accept-Encoding  = Tells the webserver what types of compression the browser support, so data could be made smaller for transmitting through the internet
+
+Cookie = Data sent to help remember info to the website
+
+Common Response Header
+===> Data returned from the server to the client after request
+
+Set-Cookie = Information to store which gets sent back to the web server on each request
+
+Cache-Control = Information to store which gets sent back to the web server on each request
+
+Content-Type = Tell client what data is being returned
+
+Content-Encoding = What method to compress data to make it smaller for easier transmission over the internet
+
+## 3. Commands
+
+to view cookies that being sent, chose more tool and select developer tools
+
+
+
+
+
+
+
+
+ 
+
