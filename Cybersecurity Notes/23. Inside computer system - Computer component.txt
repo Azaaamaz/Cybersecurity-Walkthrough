@@ -1,0 +1,33 @@
+# Inside the computer
+
+## 1 . Overview
+
+We will talking inside the computer system. Computer have part that act like an organ in us
+
+## 2. Key Content
+
+===> Motherboard
+Motherboard act like skeleton and nervous system, it connecting all different part in computer
+
+===> CPU
+CPU often call processor act like a brain. It calculate many instruction continiosly
+
+===> RAM
+RAM (Random Access Memory) act like a short term memory, fast bus temporary. RAM are volatile, when power is lost, all content are gone
+
+===> Storage(HDD/SSD)
+Storage act like our brain that store permanent memory. Two type of storage is HDD and SSD. It storing adta via SATA or PCI Express slots
+
+===> Network Adapter
+Network adaptor act like our vocal chord, enabling us to communicate with other device. Network adaptor comes in wireless and wired version. It usually connect via PCI Express card card
+
+===> PSU
+PSU (Power Supply Unit) is like our heart, it supplies electricity to computer system. But if one system need power than PSU can provide, the system will fail
+
+===> Graphic Card
+Graphic Card act like visual cortex in our brain. Similarly, the graphics card receives information from the operating system and programs, then outputs processed visual data to a monitor. It connect using PCI Express slots on motherboard
+
+===> Input Output (I/O)
+I/O Input devices include keyboards, microphones, mice, and scanners. Output devices include monitors, printers, and speakers.
+
+

@@ -1,0 +1,55 @@
+# Computer types 
+
+## 1. Overview
+
+There are many types of computer. many computer is hiding inside our everyday object, such like door, lamps an coffee machines
+
+## 2. Key content
+
+Computer Type: 
+
+===> Laptop
+- Bult for flexibility
+- Portable but slow down when pushed
+
+===> Desktop
+- Have great performance
+- Fixed in place
+- Designed for consistency than mobilty
+
+===> Workstation
+- Workstation is built for specialized task that require high performance
+- Looked like desktop
+
+===> Server
+- Not require dedicated screen and keyboard
+- ran continuously, answering question from multiple users
+
+===> Smartphone
+- Pocket sized computer
+- Optimized for battery life an connectivity
+
+===> Tablt
+- Portable computer with larger screen
+
+===> IoT device
+- Network connected with single purpose
+- Thermostat, smart doorbell, fitness tracker
+
+===> Embedded Computer
+- Computer build into another device
+- Coffee maker controller, automatic door sensor, lamp dimmer chip
+
+
+
+
+
+
+
+
+
+
+
+
+
+

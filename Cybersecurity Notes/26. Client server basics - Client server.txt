@@ -1,0 +1,14 @@
+# Client-Server basics
+
+## 1. Overview
+
+In this part, we will learn more about computer systems 
+
+## 2. Key Content
+
+==> Request and Response
+-Imagine request is kind like, when Alice want to order a pizza for a party, so she ask Bob to buy the pizza to the Luigi's Pizzeria. Alice is Cliet, Bob is the Browser
+
+==> Protocol
+- 
+

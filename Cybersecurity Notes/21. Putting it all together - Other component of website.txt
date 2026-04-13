@@ -1,0 +1,49 @@
+# Putting it all together
+
+## 1. In summary, when we request a website in our browser, it will follow this steps:
+
+1. Server will check the server IP address, using DNS
+2. Then your computer will talk to the server using HTTP protocol
+3. Webserver then will return your request with HTML, JavaSript, CSS, Images, etc
+
+there are also few other component that help websites run efficiently
+
+## 2. Key Content
+
+== Load balancer
+
+- When a website have a large traffic, it might be use more than one server running that website
+- Load balancer used to ensuring that websites still running despite one of the server is down
+- its using different algorithm to decide which server do the job, example : Round Robin
+- Load balancer could do periodic check, called health check
+
+== CDN (Content Delivery Networks)
+
+CDN used to cutting down traffic to a busy website. Its short like, we put our website file to different server across the world, so that user will get to access the website faster by getting the file in their nearest server
+
+== Databases
+
+Database used to store information from a website, allowing them to store and retrieve data. Database range from simple plain text to complex multiple server. some common database including MySQL, MSSQL, MongoDB, Postgres, and more; each has its specific features.
+
+== WAF (Web Application Firewall)
+
+WAF used to protect webserver from attack, such as hacking or denial of service attack. It analyzing web request for common attack tecniques. It also checks if an excessive amount of web requests are being sent by utilising something called rate limiting, which will only allow a certain amount of requests from an IP per second
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

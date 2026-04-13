@@ -1,0 +1,27 @@
+# Sensitive data exposure and HTML Injection
+
+## 1. Overview
+
+Sensitive Data Exposure occurs when a website doesn't properly protect (or remove) sensitive clear-text information to the end-user
+
+HTML Injection is vulnerability that occurs when unfiltered user input is displayed on the page 
+
+## 2. Key content
+
+==> Sensitive data exposure
+
+- We know website built using HTML tags, we can see all of that code using "view page source"
+- Web developer might have forgotten to delete login credentials, hidden link to private part of the website or other sensitive data
+- Leaked sensitive information can grant attackers access to the websites
+
+==> HTML Injection
+
+- Happen when a website fail to sanitize user input (Filter "malicious" test that the client input)
+
+## 3. Command
+
+in unsanitized website, type this to generate link of a website
+
+<a href = text link</a>
+
+

@@ -1,0 +1,30 @@
+# JavaScript, what and how?
+
+## 1. Overview
+
+JavaScript allows page to become interactive. HTML used to create website structure, while JavaScript used to control the functionality of web pages. JS can dynamically update the page in real-time, giving functionality to change the style of a button when a particular event on the page occurs (such as when a user clicks a button) or to display moving animations.
+
+## 2. Key Content
+
+- JavaScript is added in webpage source code. could b added within <script> or <script src="/location/of/javascript_file.js"></script> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TryHackMe Editor</title>
+    </head>
+    <body>
+        <div id="demo">Hi there!</div>
+        <script type="text/javascript">
+
+					====> if u put some word in this line from <body> to </body> it will appear in the webpage
+
+            // add your JavaScript here
+
+					====> u can put this document.getElementById("demo").innerHTML = "Hack the Planet";
+
+
+        </script>
+    </body>
+</html>
+

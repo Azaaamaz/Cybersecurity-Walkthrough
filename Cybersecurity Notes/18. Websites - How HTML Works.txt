@@ -1,0 +1,58 @@
+# How Websites work?
+
+## 1. Overview
+
+Explaining about websites
+
+## 2. Key Content
+
+Websites makes up of two major component
+===> Front End (Client Side)
+===> Back End (Server Side)
+
+Websites primarily created using:
+- HTML = To build websites and define its structure 
+- CSS = To make websites look pretty by adding styling option
+- JavaScript = To make complex features on page
+
+=== HTML ===
+
+HTML(HyperText Markup Language) is languages that websites use and makes up of bunch of elements. There are many elements in html. Below is snippets of HTML codes
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Example headings</p>
+    <p>Example paragraph</p>
+  </body>
+</html>
+
+
+<!DOCTYPE html> ==> to standardize the page across different browser, tell the browsr to use HTML5 to interpret the page
+
+<html> ==> root element of HTML page - all another element come after this element
+
+<html> ==> this element contain information about the page (such as the page title)
+
+<body> ==> this element defines the HTML documents body, only content inside the body will shown in the browser
+
+<h1> ==> this element defines large headings
+
+<p> ==> this element defines a paragraph
+
+another elements (tags):
+
+<button> ==> used for button
+<img> ==> used for image
+
+tags can contain attributes: 
+
+class ==> style the tag ===> <p class="bold-text">
+src ==> to specify the image <img src="img/cat.jpg">
+id ==> elements can also have i attributes ===> <img src="img/cat.jpg">
+
+
+

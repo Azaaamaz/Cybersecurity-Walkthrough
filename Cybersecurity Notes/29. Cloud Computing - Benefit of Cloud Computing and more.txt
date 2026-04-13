@@ -1,0 +1,84 @@
+# Cloud Computing
+
+## 1. Overview
+
+Cloud Computing is invented to solve several problem that physical server cant do. Cloud computing have several benefits:
+
+- Scalability: Easily scale up or down as your application's needs change.
+- On-demand self-service: Create or remove servers and storage instantly, without waiting for hardware.
+- Pay only for what you use: You are charged based on usage, not upfront costs.
+- Security: Cloud providers protect the infrastructure with strong security measures.
+- High availability: Applications keep running even if part of the system fails.
+- Global access: Your application can be accessed by users anywhere in the world.
+
+Cloud computing enable IT Resource to become flexible, cost-effective, and easier to mantain
+
+## 2. Key Contents
+
+Here is the evolution of how servers were used and managed.
+
+==> Physical era (1960-2000s)
+==> Virtualization (1999-2006)
+==> Automation and remote management (2003-2006)
+==> Modern Cloud era (2012-Today)
+
+Cloud computing is divided into 2 development type
+
+ - Public Cloud = Easy to scale and affordable, equires no infrastructure management. Public cloud services are preferable for nearly every use case.
+
+- Private Cloud = Used by banks healthcare, and government organizations because it offers greater control, customization, and compliance for sensitive data.
+
+- Hybrid Cloud = Used by companies like e-commerce platforms that need to keep sensitive data private while still scaling publicly during high demand.
+
+Cloud Computing also divided into several service models
+
+
+- Infrastructure as a Service (IaaS): You rent basic computing resources such as virtual servers, storage, and networking. You are responsible for managing the operating system and your application, while the provider manages the physical hardware.
+
+- Platform as a Service (PaaS): The cloud provider manages the infrastructure and the operating system. You focus on building, deploying, and running your application without worrying about servers.
+
+- Software as a Service (SaaS): You use a complete application over the internet. The provider manages everything, and you access the software through a browser or app, for example, Gmail or Zoom.
+
+Here are several major cloud vendors
+
+AWS = The industry leader and most extensive offerings and global reach
+Microsoft Azure = A strong competitor, especially in enterprise and hybrid cloud environments.
+Google Cloud Platform (GCP) = Known for powerful data analytics, AI, and machine learning tools.
+Alibaba Cloud = A major player in Asia, offering competitive cloud services globally.
+IBM Cloud = Focuses on hybrid cloud and AI-driven solutions for businesses.
+Oracle Cloud = Focuses on enterprise applications and databases.
+
+# 3. Command and terminology
+
+- Public Cloud 
+Cloud services you access over the internet that many people and companies share.
+
+- Private Cloud 
+A cloud built just for one company, so they have more control and security.
+
+- Hybrid Cloud
+A mix of public and private clouds that can work together and share data.
+
+- IaaS
+A service where you rent basic computer parts like servers and storage from the cloud.
+
+- PaaS
+A service that gives you a ready-to-use environment to build and run apps without managing servers.
+
+- SaaS
+Software you use online without installing anything, like Gmail or Zoom.
+
+- EC2
+Amazon’s cloud computers that you can quickly create, use, and resize whenever you need them.
+
+benefits of cloud computing are:
+
+- Scalability
+- On-demand self-service
+- Pay only for what you use
+- Security
+- High availability
+- Global access
+
+
+

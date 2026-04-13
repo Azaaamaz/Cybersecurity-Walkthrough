@@ -1,0 +1,13 @@
+# Computer startup
+
+## 1. Overview
+
+When we press the power button, several step will happen to start our computer
+
+## 2. Key Content
+
+Step 1 : When we press the power button, signal is sent to the PSU to allow power flow
+Step 2 : UEFI (older is BIOS) coordinating and manage component for startup
+Step 3 : UEFI check is every part is present and working
+Step 4 : UEFI will select which component to start first according to the configured priority list
+Step 5 : the UEFI give control to OS and RAM

@@ -1,0 +1,65 @@
+# Virtualization components
+
+## 1. Overview
+
+Hypervisor is core technology behind virtualization. It's the software that manages virtual machines
+
+- Divides a physical computer into multiple virtual ones.
+- Gives each virtual machine its own share of CPU, memory, and storage.
+- Keeps everything isolated and safe.
+- Manages the lifecycle of virtual machines (start, stop, pause, clone, delete).
+
+Hypervisor have to type of implementation
+
+Type 1 hypervisors run directly on the physical hardware, making them fast, efficient, and ideal for servers and professional environments.
+
+Type 2 hypervisors run within an existing operating system, making them easier to install and ideal for learning, testing, or small setups.
+
+Below is some example which type is better for
+
+-- 1. Test malicious files = Type 2
+-- 2. Production server = Type 1
+-- 3. Database server = Type 1
+-- 4. Software testing = Type 2
+-- 5. Kali Linux = Type 2
+-- 6. Data center= Type 1
+
+Virtual mahines (The apartements)
+
+Even though its virtual it behaves like a real machine
+
+- It has its own virtual CPU, RAM, storage, and network.
+- It can run any operating system (Windows, Linux, etc.).
+- It’s completely isolated from other VMs. This means that if one VM breaks, the others continue to work.
+
+we can deploy VMs with Oracle VirtualBox or VMware Workstation. This software is type 2 hypervisor
+
+Containers is like the rooms in the apartements
+
+A container is a lightweight, isolated environment that runs a single application and all the necessary components to support it. Containes work in kernel, Because containers share this kernel, they start quickly and use fewer resources than full virtual machines, but it also means they must match the host system’s type. For example, you can’t run a Windows container on a Linux machine.
+
+You cant run windows container in Linux machines
+
+Containers behave like small, self-contained spaces because:
+
+They package the application and its dependencies (libraries, tools, versions).
+They share the host’s operating system, so they start almost instantly.
+They remain isolated from each other, so a misbehaving container doesn’t affect the others.
+They can run consistently on any machine, making them perfect for development, testing, and scalable deployments.
+
+
+Key Terminology
+Let's quickly review some concepts we learned in this room:
+
+Virtualization: Enables a single physical computer to act like multiple separate computers.
+Hypervisor: The “manager” software that makes and runs the virtual computers.
+Virtual Machine (VM): A whole virtual computer inside the real one, with its own system.
+Container: A small, isolated box for one app that shares the same system as the host.
+Container Images: A pre-packed recipe/template used to create containers.
+Network Ports: Special numbered entry points that apps use to talk over the network.
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+# Virtualization Basics
+
+## 1. Overview
+
+Virtualization created to because hosting each piece of software and website in its own physical server is inefficient
+
+## 2. Key content
+
+Before concept virtualization the rule of thumb in IT was
+"One server = one application"
+
+but it was inefficient due to:
+
+- High cost
+- Low Utilization
+- Slow deployment
+- Hard to scale
+
+The concept then change to:
+"What if multiple applications could share the same physical server safely?"
+
+===> The analogy was simple 
+
+Imagine virtualization is like when we live in a big building
+- If only one person uses the builing it will be expensive because he need to cover all the bill but he only use it for him
+
+- Virtualization work when the building is separated into different apartements
+ - Each apartment has its own door, walls, kitchen, and privacy.
+ - Different people can live independently without bothering each other.
+ - They all share the building’s main structure: electricity, water, and elevators, making it cheaper and more efficient for everyone.
+
+
+the terms: 
+
+The building = The physical server
+The Apartments = Virtual machine
+The tenants = applications or operating system
+The Building manager = Hypervisor (the software that divides the building safely)
+
+
+
+
